@@ -25,7 +25,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
-        uses: actions/configure-pages@v5ire repository
+        uses: actions/configure-pages@v5
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
