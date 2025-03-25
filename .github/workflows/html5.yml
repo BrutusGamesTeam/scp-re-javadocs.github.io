@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Implantação da documentação em Java
 
 on:
   push:
@@ -26,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
